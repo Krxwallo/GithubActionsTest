@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Test-script 1
-        run: echo Test 1 :D
+        run: sh script1.sh
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
